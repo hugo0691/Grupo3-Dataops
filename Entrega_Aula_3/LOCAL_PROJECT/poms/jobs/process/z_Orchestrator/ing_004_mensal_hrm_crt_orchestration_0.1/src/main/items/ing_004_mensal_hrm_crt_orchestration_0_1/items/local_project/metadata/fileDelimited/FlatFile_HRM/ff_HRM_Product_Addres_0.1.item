@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_mEqJ0OXCEeu45MjC-TDXEw" name="ff_HRM_Product_Addres" dataPackage="_mEqJ0eXCEeu45MjC-TDXEw" Server="Localhost 127.0.0.1" FilePath="D:/12ABD/Leandro/TOS_BD-20200219_1130-V7.3.1/workspace/out_Talend/ff_HRM_ProductAddress.txt" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mEqJ0eXCEeu45MjC-TDXEw" name="default" dataManager="_mEqJ0OXCEeu45MjC-TDXEw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mEqJ0uXCEeu45MjC-TDXEw" id="_daH4EOXBEeu45MjC-TDXEw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mEqJ0-XCEeu45MjC-TDXEw" name="OrderMonth" label="OrderMonth" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mEqJ1OXCEeu45MjC-TDXEw" name="ProductName" label="ProductName" length="10" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mEqJ1eXCEeu45MjC-TDXEw" name="StateProvince" label="StateProvince" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mEqJ1uXCEeu45MjC-TDXEw" name="CountryRegion" label="CountryRegion" length="50" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mEqJ1-XCEeu45MjC-TDXEw" name="QtdeVendida" label="QtdeVendida" length="15" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mEqJ2OXCEeu45MjC-TDXEw" name="PrecoUnit" label="PrecoUnit" length="9" precision="5" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mEqJ2eXCEeu45MjC-TDXEw" name="Subtotal" label="Subtotal" length="20" precision="7" talendType="id_Float"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

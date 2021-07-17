@@ -1,0 +1,3 @@
+$fileDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+cd $fileDir
+java '-Dtalend.component.manager.m2.repository=%cd%/../lib' '-Xms256M' '-Xmx1024M' '-Dfile.encoding=UTF-8' -cp '.;../lib/routines.jar;../lib/log4j-slf4j-impl-2.12.1.jar;../lib/log4j-api-2.12.1.jar;../lib/log4j-core-2.12.1.jar;../lib/talendcsv.jar;../lib/crypto-utils.jar;../lib/talend_file_enhanced_20070724.jar;../lib/slf4j-api-1.7.25.jar;../lib/dom4j-2.1.1.jar;ing_003_diario_crt_orchestration_0_1.jar;ing_crt_dataset_loja_0_1.jar;ing_crt_dataset_cliente_0_1.jar;ing_crt_dataset_produtos_0_1.jar;ing_crt_rel_vendas_x_regiao_0_1.jar;ing_crt_dataset_vendedor_0_1.jar;ing_crt_dataset_vendas_0_1.jar;' local_project.ing_003_diario_crt_orchestration_0_1.ing_003_Diario_CRT_Orchestration  --context=Default $args

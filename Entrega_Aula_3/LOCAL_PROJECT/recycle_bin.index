@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-07-16T14:36:17.911-0300">
+  <deletedFolders>process/demo</deletedFolders>
+  <deletedItems id="_QKNNUGZ8EeWm5YvsrIoYzQ" path="demo" type="PROCESS"/>
+  <deletedItems id="_4yvb8LUiEeuMzu5pZr4e4Q" path="FlatFile_HRM" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_iYkzAOZZEeuhR6TDHmHkQg" path="Curated" type="PROCESS"/>
+</recyclebin:RecycleBin>
